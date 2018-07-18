@@ -7,6 +7,9 @@
 @import url('font-awesome.min.css');
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 
+// original color theme: #4acaa8
+// sass --watch assets/sass/main.scss:assets/css/main.css
+
 /*
 	Read Only by HTML5 UP
 	html5up.net | @ajlkn
@@ -152,7 +155,18 @@
 
 	p {
 		margin: 0 0 _size(element-margin) 0;
-	}
+  }
+  
+  // custom p class
+  .p-matt {
+    margin: 0 0 1.25em 0;
+  }
+
+  // custom button class
+  .b-matt {
+    margin-right: 1.25em;
+  }
+
 
 	h1, h2, h3, h4, h5, h6 {
 		color: _palette(fg-bold);
@@ -1809,4 +1823,4 @@
 				padding: 0;
 			}
 
-	}
+  }
