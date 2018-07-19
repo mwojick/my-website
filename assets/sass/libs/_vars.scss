@@ -25,8 +25,9 @@
 		family-fixed:		('Source Code Pro', monospace),
 		weight:				400,
 		weight-bold:		700
-	);
-
+  );
+  
+  $main: #2f77aa;
 // Palette.
 	$palette: (
 		bg:					#fff,
@@ -41,10 +42,10 @@
 		border3-bg:			#eaeaea,
 
 		accent1: (
-			bg:				#2f77aa,
+			bg:				$main,
 			fg-bold:		#ffffff,
-			fg:				mix(#2f77aa, #ffffff, 25%),
-			fg-light:		mix(#2f77aa, #ffffff, 40%)
+			fg:				mix($main, #ffffff, 25%),
+			fg-light:		mix($main, #ffffff, 40%)
 		),
 
 		accent2: (
@@ -55,10 +56,10 @@
 		),
 
 		header: (
-			bg:				#2f77aa,
+			bg:				$main,
 			fg-bold:		#ffffff,
-			fg:				mix(#2f77aa, #ffffff, 25%),
-			fg-light:		mix(#2f77aa, #ffffff, 40%),
-			border:			mix(#2f77aa, #ffffff, 90%)
+			fg:				mix($main, #ffffff, 25%),
+			fg-light:		mix($main, #ffffff, 40%),
+			border:			mix($main, #ffffff, 90%)
 		)
 	);
