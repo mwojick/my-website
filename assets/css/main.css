@@ -124,20 +124,20 @@ p {
   list-style: none; }
 
 .i-matt {
-  font-size: 6vw; }
+  font-size: calc(6vw); }
 
 .img-matt {
-  width: 6vw !important; }
+  width: calc(6vw) !important; }
 
 @media (max-width: 736px) {
   .col-3 {
-    width: 33.3333333333% !important; }
+    width: calc(33.3333333333%) !important; }
 
   .i-matt {
-    font-size: 12vw; }
+    font-size: calc(12vw); }
 
   .img-matt {
-    width: 12vw !important; } }
+    width: calc(12vw) !important; } }
 .li-matt {
   margin-top: 30px;
   display: flex;
